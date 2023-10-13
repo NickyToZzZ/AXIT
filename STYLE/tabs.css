@@ -62,7 +62,6 @@ main {
     height: 100%;
     display: inline-block;
     vertical-align: top;
-    align-items: right;
     margin-left: 5px;
     float: right;
 }
