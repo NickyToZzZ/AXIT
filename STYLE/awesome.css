@@ -1,45 +1,45 @@
-
-main {
+.awesome-article {
     width: 100%;
+    margin-bottom: 50px;
 }
-.container {
+.awesome-container {
     width: 1170px;
     margin: 0 auto; /* отступ (в данном случае центрирование*/
 }
-.container__img {
+.awesome-container__img {
     text-align: center;
 }
-.item__img {
+.awesome-item__img {
     text-align: center;
 }
-.container__h2 {
+.awesome-container__h2 {
     text-align: center;
     font-size: 36px; /*рамзер шрифта*/
     font-weight: 400; /*"жирность" шрифта*/
     font-family: 'Raleway'; /*семейство шрифтов*/
 }
-.container__h5 {
+.awesome-container__h5 {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     color: rgba(134, 135, 139, 1);
     font-family: 'Raleway', sans-serif; /*если первый шрифт перестанет работать, будет задействован следующий*/
 }
-.block {
+.awesome-block {
     width: 100%;
 }
-.item {
+.awesome-item {
     display: inline-block; /*блочно-строчный элемент*/
     width: 370px;
     height: 383px;
 }
-.item__h4 {
+.awesome-item__h4 {
     text-align: center;
     font-size: 24px;
     font-weight: 700;
     font-family: 'Open Sans';
 }
-.item__h5 {
+.awesome-item__h5 {
     text-align: center;
     font-size: 18px;
     font-weight: 400;

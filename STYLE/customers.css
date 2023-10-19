@@ -1,0 +1,96 @@
+.customers {
+    width: 100%;
+    margin-top: 100px;
+}
+.customers-container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.customers-title {
+    width: 100%;
+    height: 200px;
+}
+.customers-title__header {
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.customers-title__image {
+    text-align: center;
+    margin: 30px;
+}
+.customers-title__text {
+    font-size: 18px;
+    font-weight: 400;
+    color: #86878B;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.customers-content {
+    width: 100%;
+    height: 200px;
+    margin-top: 40px;
+}
+.customers-quote {
+    width: 100%;
+    height: 180px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.customers-text {
+    width: 370px;
+    background-color: #E2E2E2;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #86878B;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.customers-text__content {
+    margin-top: 37px;
+}
+.customers-triangle {
+    display: inline-flex;
+}
+.customers-triangle__content {
+    width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #E2E2E2;
+    margin-left: 70px;
+    margin-right: 300px;
+}
+.customers-footer {
+    width: 100%;
+    height: 150px;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.customers-info {
+    width: 370px;
+    height: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.customers-info__photo {
+    width: 70px;
+}
+.customers-name {
+    width: 270px;
+    height: 100%;
+}
+.customers-name__full-name {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.customers-name__job-title {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 15px;
+}
