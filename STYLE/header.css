@@ -1,0 +1,33 @@
+.header {
+    width: 100%;
+    margin-top: 100px;
+}
+.header-container {
+    width: 1170px;
+    height: 75px;
+    background-color: #000;
+    margin: 0 auto;
+    display: flex;
+}
+.header-logo {
+    width: 30%;
+    color: white;
+    font-size: 36px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.header-logo__new-color {
+    color: hsla(0, 75%, 70%, 1);
+}
+.header-tabs {
+    width: 50%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.header-tabs__name {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 75px;
+}
