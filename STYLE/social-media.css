@@ -1,0 +1,38 @@
+.social-media {
+    width: 100%;
+    margin-top: 100px;
+}
+.social-media-container {
+    width: 1170px;
+    height: 140px;
+    background-color: hsla(0, 39%, 95%, 1);
+    margin: 0 auto;
+    display: flex;
+}
+.social-media-block {
+    width: 40%;
+    height: 100%;
+}
+.social-media-href {
+    width: 55%;
+    height: 100%;
+    display: inline-flex;
+}
+.social-media__icons {
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.social-media-block__header {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Open Sans;
+    color: #333;
+    margin-left: 65px;
+}
+.social-media-block__text {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Raleway;
+    color: #86878B;
+    margin-left: 65px;
+}
