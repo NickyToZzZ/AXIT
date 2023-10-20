@@ -1,6 +1,5 @@
 .footer {
     width: 100%;
-    margin-top: 100px;
 }
 .footer-container {
     width: 1170px;
@@ -16,6 +15,10 @@
 }
 .footer-href__icons {
     margin: 20px;
+    cursor: pointer;
+}
+.footer-href__icons:hover {
+    transform: rotate(10deg) scale(1.5);
 }
 .footer-info {
     color: rgba(255, 255, 255, 0.50);

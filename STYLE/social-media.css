@@ -1,6 +1,5 @@
 .social-media {
     width: 100%;
-    margin-top: 100px;
 }
 .social-media-container {
     width: 1170px;
@@ -21,6 +20,10 @@
 .social-media__icons {
     margin-left: 30px;
     margin-top: 40px;
+    cursor: pointer;
+}
+.social-media__icons:hover {
+    transform: rotate(10deg) scale(1.5);
 }
 .social-media-block__header {
     font-size: 24px;

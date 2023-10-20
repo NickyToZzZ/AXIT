@@ -1,6 +1,9 @@
 .header {
     width: 100%;
-    margin-top: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 .header-container {
     width: 1170px;
@@ -15,6 +18,7 @@
     font-size: 36px;
     margin-left: 100px;
     margin-top: 15px;
+    cursor: pointer;
 }
 .header-logo__new-color {
     color: hsla(0, 75%, 70%, 1);
@@ -30,4 +34,8 @@
     font-size: 14px;
     font-weight: 600;
     line-height: 75px;
+    cursor: pointer;
+}
+.header-tabs__name:hover {
+    color: hsla(0, 75%, 70%, 1);
 }

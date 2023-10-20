@@ -1,6 +1,6 @@
 .tabs {
     width: 100%;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 .tabs-container {
     width: 1170px;
@@ -16,6 +16,10 @@
     height: 100%;
     display: inline-block;
     vertical-align: top; /*вертикальное вырванивание*/
+}
+.tabs-header-block__tab:hover {
+    filter: drop-shadow(0px 4px 10px #4682B4);
+    background-color: hsla(0, 75%, 70%, 1);
 }
 .tabs-header__right {
     width: 49%;
@@ -34,6 +38,10 @@
     font-family: 'Open Sans', sans-serif;
     vertical-align: top;
     border-bottom: 1px solid hsla(197, 7%, 79%, 1);
+    cursor: pointer;
+}
+.tabs-article-block__button:hover {
+    filter: drop-shadow(0px 4px 10px #4682B4);
 }
 #tabs-tab1 {
     border: 1px solid hsla(197, 7%, 79%, 1);
@@ -97,4 +105,5 @@
     margin-top: 20px;
     color: white;
     font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
 }
