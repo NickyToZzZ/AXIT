@@ -1,0 +1,102 @@
+.contact {
+    width: 100%;
+}
+.contact-container {
+    width: 1170px;
+    height: 622px;
+    margin: 0 auto;
+}
+.contact-header {
+    width: 100%;
+    height: 35%;
+}
+.contact-header__title {
+    font-size: 36px;
+    font-weight: 400;
+    font-family: Raleway;
+    text-align: center;
+}
+.contact-header__separator {
+    text-align: center;
+}
+.contact-header__text {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Raleway;
+    text-align: center;
+    color: #86878B;
+    margin: 40px;
+}
+.contact-form {
+    width: 100%;
+    height: 60%;
+}
+.contact-content {
+    width: 100%;
+    height: 64%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.contact-block-left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Open Sans;
+    color: #BDBDBD;
+}
+.contact-block-left__input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    border-bottom: 1px solid #86878B;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+.contact-block-right {
+    width: 50%;
+    height: 100%;
+}
+.contact-button {
+    width: 100%;
+    height: 35%;
+}
+#message {
+    width: 525px;
+    height: 209px;
+    resize: none;
+    margin-left: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Open Sans;
+    color: #BDBDBD;
+}
+.contact-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-button__submit {
+    width: 370px;
+    height: 58px;
+    background-color: hsla(0, 75%, 70%, 1);
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.contact-button__submit:hover {
+    filter: drop-shadow(0px 4px 10px #4682B4);
+}
