@@ -57,6 +57,18 @@
     padding: 16px;
     margin-bottom: 16px;
 }
+.contact-block-left__input::-webkit-input-placeholder {
+    color: #BDBDBD;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+}
+.contact-block-right::-webkit-input-placeholder {
+    color: #BDBDBD;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+}
 .contact-block-right {
     width: 50%;
     height: 100%;
@@ -73,11 +85,17 @@
     border-top: none;
     border-left: none;
     border-right: none;
+    border-bottom: 1px solid #86878B;
     outline: none;
     font-size: 14px;
     font-weight: 400;
     font-family: Open Sans;
+}
+#message::-webkit-input-placeholder {
     color: #BDBDBD;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
 }
 .contact-button {
     display: flex;
