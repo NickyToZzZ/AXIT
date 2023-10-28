@@ -37,3 +37,56 @@
 .header-tabs__name:hover {
     color: hsla(0, 75%, 70%, 1);
 }
+.header-tabs__vector {
+    text-align: center;
+    line-height: 75px;
+    display: none;
+}
+
+@media screen and (max-width: 1170px) {
+    .header-container {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .header-logo {
+        font-size: 30px;
+        margin-left: 70px;
+        margin-top: 18px;
+    }
+    .header-tabs__name {
+        font-size: 12px;
+        line-height: 60px;
+    }
+    .header-container {
+        height: 60px;
+    }
+}
+@media screen and (max-width: 570px) {
+    .header-logo {
+        width: 20%;
+        margin-left: 50px;
+        margin-top: 15px;
+    }
+    .header-tabs {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .header-logo {
+        margin-left: 30px;
+    }
+    .header-tabs {
+        width: 65%;
+    }
+}
+@media screen and (max-width: 430px) {
+    .header-tabs__name {
+        display: none;
+    }
+    .header-tabs__vector {
+        line-height: 60px;
+        display: block;
+        margin: 0 auto;
+    }
+}
