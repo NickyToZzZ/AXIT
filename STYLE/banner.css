@@ -7,8 +7,8 @@
 .banner-container {
     width: 1170px;
     height: 1026px;
-    margin-left: 70px;
-    display: inline-flex;
+    margin: 0 auto;
+    display: flex;
 }
 .banner-block-left {
     width: 55%;

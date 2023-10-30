@@ -12,14 +12,8 @@
 }
 .header-logo {
     width: 30%;
-    color: white;
-    font-size: 36px;
-    margin-left: 100px;
-    margin-top: 15px;
     cursor: pointer;
-}
-.header-logo__new-color {
-    color: hsla(0, 75%, 70%, 1);
+    text-align: center;
 }
 .header-tabs {
     width: 50%;
@@ -49,11 +43,6 @@
     }
 }
 @media screen and (max-width: 700px) {
-    .header-logo {
-        font-size: 30px;
-        margin-left: 70px;
-        margin-top: 18px;
-    }
     .header-tabs__name {
         font-size: 12px;
         line-height: 60px;
@@ -61,21 +50,16 @@
     .header-container {
         height: 60px;
     }
+    .header-logo__image {
+        transform: scale(0.8);
+    }
 }
 @media screen and (max-width: 570px) {
-    .header-logo {
-        width: 20%;
-        margin-left: 50px;
-        margin-top: 15px;
-    }
     .header-tabs {
         width: 60%;
     }
 }
 @media screen and (max-width: 500px) {
-    .header-logo {
-        margin-left: 30px;
-    }
     .header-tabs {
         width: 65%;
     }
