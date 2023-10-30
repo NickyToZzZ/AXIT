@@ -117,3 +117,51 @@
 .banner-form__button:hover {
     filter: drop-shadow(0px 4px 10px #4682B4);
 }
+
+
+@media screen and (max-width: 1170px) {
+    .banner-container {
+        width: 95%;
+    }
+    .banner-free-trial {
+        transform: scale(0.8);
+    }
+    .banner-block-left {
+        width: 45%;
+    }
+}
+@media screen and (max-width: 875px) {
+    .banner-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-block-left {
+        width: 100%;
+        height: 50%;
+        align-items: center;
+    }
+    .banner-block-right {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-free-trial {
+        margin: 0;
+    }
+    .banner-block-left__title {
+        margin-top: 20px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .banner-logo__image {
+        transform: scale(0.8);
+    }
+}
+@media screen and (max-width: 470px) {
+    .banner-container {
+        transform: scale(0.7);
+    }
+}
