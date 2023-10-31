@@ -5,7 +5,6 @@
 .customers-container {
     width: 1170px;
     margin: 0 auto;
-    border: 1px solid blue;
 }
 .customers-title {
     width: 100%;
@@ -82,4 +81,62 @@
     font-weight: 400;
     font-family: 'Raleway', sans-serif;
     margin-top: 15px;
+}
+.dots {
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+}
+
+
+@media screen and (max-width: 1170px) {
+    .customers-container {
+        width: 95%;
+    }
+    .customers-content {
+        transform: scale(0.8);
+    }
+    .customers-columns {
+        margin: 5px;
+     }
+}
+
+@media screen and (max-width: 1060px) {
+    #column2 {
+        display: none;
+    }
+    #column3 {
+        display: none;
+    }
+    .dots {
+        display: block;
+    }
+    .customers-content {
+        transform: scale(1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 465px) {
+    .customers-title__text {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .customers-title__header {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:390px) {
+    .customers-content {
+        transform: scale(0.8);
+    }
+    .dots {
+        transform: scale(0.8);
+    }
+}
+@media screen and (max-width: 320px) {
+    .customers-content {
+        transform: scale(0.7);
+    }
 }
