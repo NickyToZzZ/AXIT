@@ -25,7 +25,8 @@
     font-family: 'Raleway', sans-serif;
 }
 .awesome-block {
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 .awesome-item {
     display: inline-block; 
@@ -51,8 +52,21 @@
 
 @media screen and (max-width: 1170px) {
     .awesome-container {
-        width: 95%; 
-        flex-wrap: wrap;
-        justify-content: center;
+        width: 95%;
     }
+}
+@media screen and (max-width: 1025px) {
+    .awesome-block {
+      transform: scale(0.8);
+    }
+    .awesome-item {
+        margin: 5px;
+    }
+}
+@media screen and (max-width: 730px) {
+    .awesome-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
 }
