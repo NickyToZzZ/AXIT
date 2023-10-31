@@ -23,6 +23,9 @@
     font-family: Raleway;
     text-align: center;
 }
+.little-icons {
+    display: none;
+}
 
 
 @media screen and (max-width: 1170px) {
@@ -37,24 +40,24 @@
     }
 }
 @media screen and (max-width: 550px) {
-    .footer-href__icons {
-       transform: scale(0.5);
-       margin: 5px;
-    }
     .footer__info {
         font-size: 16px;
     }
-}
-@media screen and (max-width: 470px) {
     .footer-href__icons {
-        width: 50%;
-        margin: 0;
-     }
+        display: none;
+    }
+    .footer-href__little-icons {
+        display: inline-block;
+        transform: scale(1.1);
+    }
+    .footer-href {
+        justify-content: space-around;
+        align-items: center;
+    }
 }
-@media screen and (max-width: 400px) {
-    .footer-href__icons {
-        width: 30%;
-        transform: scale(0.3);
-     }
-}
+@media screen and (max-width: 320px) {
+    .footer-href__little-icons {
+        transform: scale(0.9);
+    }
+}    
 
